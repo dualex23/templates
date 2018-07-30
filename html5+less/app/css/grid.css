@@ -1,0 +1,33 @@
+/* Custom Responsive grid */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  color: #fff;
+  z-index: 1;
+}
+.spec-container {
+  position: relative;
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.row {
+  padding: 0 30px;
+}
+.streaks {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
